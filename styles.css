@@ -162,9 +162,9 @@ section h4 {
   .tarjeta{aspect-ratio: 2/3}
   .boton-trailer, .boton-menu, .botton-peli{min-width:unset;padding:10px 12px;font-size:14px}
 }
-
-/* Wider screens adjustments */
+/* 
+Wider screens adjustments
 @media (min-width: 1024px){
   .galeria{gap:20px}
   main{padding:28px}
-}
+} */
