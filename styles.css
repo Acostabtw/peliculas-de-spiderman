@@ -77,10 +77,10 @@ footer {
     border: none;
 }
 
-/* @media (max-width: 700px) {
+@media (max-width: 700px) {
     header h1 { font-size: 36px; }
     .tarjeta { width: 140px; height: 210px; }
-} */
+}
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -101,12 +101,11 @@ section p {
 
 section h4 {
     margin-bottom: 20px;
-    font-style: oblique; /* versión más similar a stylesp.css */
+    font-style: oblique; 
     justify-content: center;
     color: #ffffffaf;
 }
 
-/* Botones específicos de pelicula.html (venían en stylesp.css) */
 .boton-trailer {
     padding: 12px 18px;
     background: linear-gradient(#6b0e1a 0%, #3b0a16 100%);
@@ -139,32 +138,3 @@ section h4 {
     margin-left: 540px;
 }
 
-/* @media (min-width: 320px) and (max-width: 1024px) {
-    .boton-menu {
-        margin-left: 150px;
-    }
-    .botton-peli {
-        margin-left: 170px;
-    }
-} */
-
-@media (max-width: 720px){
-  main{margin:16px;padding:14px}
-  .tarjeta{border-radius:14px}
-  .galeria{grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));gap:12px}
-  .boton-menu{font-size:16px}
-}
-
-/* Ajustes para muy pequeñas pantallas */
-@media (max-width: 420px){
-  header p{display:none} /* opcional: simplificar cabecera */
-  .galeria{grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:10px}
-  .tarjeta{aspect-ratio: 2/3}
-  .boton-trailer, .boton-menu, .botton-peli{min-width:unset;padding:10px 12px;font-size:14px}
-}
-/* 
-Wider screens adjustments
-@media (min-width: 1024px){
-  .galeria{gap:20px}
-  main{padding:28px}
-} */
