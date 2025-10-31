@@ -101,11 +101,12 @@ section p {
 
 section h4 {
     margin-bottom: 20px;
-    font-style: oblique; 
+    font-style: oblique; /* versión más similar a stylesp.css */
     justify-content: center;
     color: #ffffffaf;
 }
 
+/* Botones específicos de pelicula.html (venían en stylesp.css) */
 .boton-trailer {
     padding: 12px 18px;
     background: linear-gradient(#6b0e1a 0%, #3b0a16 100%);
@@ -137,4 +138,3 @@ section h4 {
     cursor: pointer;
     margin-left: 540px;
 }
-
